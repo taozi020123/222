@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="navigation">
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="backgroundTint">#1DA8E6</item>
+</style>
+
+</resources>

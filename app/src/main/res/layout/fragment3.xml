@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Fragment3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="126dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="67dp"
+            android:text="DisplayTotals"
+            app:layout_constraintBottom_toTopOf="@+id/credites"
+            app:layout_constraintEnd_toStartOf="@+id/type"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="118dp"
+            android:layout_marginEnd="18dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="By date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/credites"
+            android:layout_width="394dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="213dp"
+            android:layout_marginBottom="185dp"
+            android:text="CREDTIS"
+            app:layout_constraintBottom_toTopOf="@+id/activity_net_wv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
